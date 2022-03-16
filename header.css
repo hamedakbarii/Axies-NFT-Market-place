@@ -1,0 +1,67 @@
+/*************************************** header ***********************************/
+#header nav {
+	width: 100%;
+	margin-top: 1rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom: 2px solid var(--secondary-color);
+}
+
+.navbar__icons ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navbar__icons ul li a {
+	padding: 0 0.5rem;
+	color: var(--light-color);
+	font-size: 0.8rem;
+}
+
+.navbar__icons ul li i {
+	padding-left: 0.3rem;
+}
+
+.navbar__double--icon i {
+	border: none;
+	border-radius: 1.5rem;
+	background-color: var(--secondary-color);
+	opacity: 0.9;
+	padding: 0.3rem;
+}
+
+.moonn {
+	color: var(--lightpurple-color);
+}
+
+.wallett {
+	padding-right: 0.3rem;
+}
+
+/* ***************************************End header *************************************/
+
+@media only screen and (max-width: 1065px) {
+	#header .navbar {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.navbar__searchicon {
+		padding: 0.5rem 0;
+	}
+
+	.navbar__button {
+		padding-bottom: 0.5rem;
+	}
+
+	.navbar__icons ul {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}

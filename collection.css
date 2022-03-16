@@ -1,0 +1,143 @@
+/* *************************************Popular Collection******************************** */
+#collection {
+	margin-top: 5.5rem;
+}
+
+.collection__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.collection__header--right {
+	margin-right: 1rem;
+	color: var(--light-color);
+	font-size: 0.5rem;
+	border-bottom: 2px solid var(--lightpurple-color);
+}
+
+.collection__header--left {
+	padding-left: 2rem;
+	color: var(--light-color);
+	font-size: 1rem;
+}
+
+.collection__down--right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--secondary-color);
+	border-radius: 0.5rem;
+	padding: 0.1rem 0.3rem;
+	font-size: 0.5rem;
+	width: 2rem;
+}
+
+.collection__items {
+	padding: 2rem 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.3s ease;
+}
+
+.collection__items--item {
+	width: 33%;
+	background-color: var(--likegray-color);
+	border: none;
+	border-radius: 1.5rem;
+	padding: 1rem;
+	margin: 0 0.8rem;
+	outline: 0;
+}
+
+.collection__down--left {
+	padding-top: 1rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.collection__down--character img {
+	padding-right: 0.6rem;
+}
+
+.character__up--title h3 {
+	color: var(--light-color);
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.character__down--title span {
+	color: var(--secondary-color);
+	font-size: 0.7rem;
+}
+
+.character__down--title p {
+	color: var(--light-color);
+	font-size: 0.8rem;
+}
+
+.collection__items--up {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.collection__items--down {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.collection__items--up img {
+	padding: 0.5rem 0.2rem;
+}
+
+.collection__items--down img {
+	padding: 0rem 0.2rem;
+}
+
+.collection__bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+/* ************************************* End Popular Collection End******************************** */
+
+@media only screen and (max-width: 1249px) {
+	.collection__items--item img {
+		width: 4rem;
+		height: 4rem;
+	}
+}
+
+@media only screen and (max-width: 837px) {
+	.collection__items {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.collection__items--item {
+		margin: 1rem 0;
+	}
+
+	.collection__items--item img {
+		width: 3rem;
+		height: 3rem;
+	}
+
+	.collection__items--item h3 {
+		font-size: 0.5rem;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.collection__items {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}

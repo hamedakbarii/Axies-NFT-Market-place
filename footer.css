@@ -1,0 +1,120 @@
+/* ************************************ Footer Section *********************************************************  */
+
+#footer {
+	margin-top: 2rem;
+	background-color: var(--dark-color);
+	width: 100%;
+}
+
+.footer__items {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__first {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding-left: 2rem;
+}
+
+.first__down p {
+	color: var(--light-color);
+	font-size: 0.5rem;
+}
+
+.second__title h2 {
+	color: var(--light-color);
+	font-size: 1rem;
+	padding: 1rem 0;
+}
+
+.second__items p a {
+	color: var(--secondary-color);
+	font-size: 0.8rem;
+}
+
+.third__title h2 {
+	color: var(--light-color);
+	font-size: 1rem;
+	padding: 1rem 0;
+}
+
+.third__items p a {
+	color: var(--secondary-color);
+	font-size: 0.8rem;
+}
+
+.fourth__title h2 {
+	color: var(--light-color);
+	font-size: 1rem;
+	padding: 1rem 0;
+}
+
+.fourth__items p a {
+	color: var(--secondary-color);
+	font-size: 0.8rem;
+}
+
+.last__title h2 {
+	color: var(--light-color);
+	font-size: 1rem;
+	padding: 1rem 0;
+}
+
+.last__items {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.last__items input {
+	background-color: var(--primary-color);
+	color: var(--seconadry-color);
+	border: none;
+	border-radius: 0.4rem;
+	padding: 0.7rem 1rem;
+}
+
+.last__items i {
+	background-color: var(--lightpurple-color);
+	color: var(--light-color);
+	border: none;
+	border-radius: 1.5rem;
+	padding: 0.5rem;
+}
+
+.last__item--socialmedia {
+	margin-top: 1rem;
+}
+
+.last__item--socialmedia i {
+	padding: 0 0.2rem;
+	border: none;
+	border-radius: 0.5rem;
+}
+
+.last__item--socialmedia i:hover {
+	color: blue;
+}
+
+.footer__last {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding-right: 2rem;
+}
+
+/* ************************************ End Footer Section End *************************************************  */
+
+@media only screen and (max-width: 1162px) {
+	.footer__items {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}

@@ -1,0 +1,115 @@
+/* ************************************* Seller section ******************************************  */
+
+#seller {
+	margin-top: 5rem;
+}
+
+.seller__title h2 {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	color: var(--light-color);
+	padding: 1rem 1rem;
+}
+
+.seller__up {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.seller__up--items {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.5rem 1rem;
+	position: relative;
+}
+
+.seller__up--left i {
+	background-color: var(--lightpurple-color);
+	border: none;
+	border-radius: 1.5rem;
+	font-size: 0.7rem;
+	padding: 0.1rem;
+	position: absolute;
+	top: 3.5rem;
+	left: 4rem;
+}
+
+.seller__up--left img {
+	padding-right: 1rem;
+}
+
+.seller__up--right h4 {
+	color: var(--light-color);
+	font-size: 0.6rem;
+	font-weight: 400;
+}
+
+.seller__up--right p {
+	color: var(--secondary-color);
+	font-size: 0.6rem;
+	font-weight: 300;
+}
+
+.seller__down {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.seller__down--items {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.5rem 1rem;
+	position: relative;
+}
+
+.seller__down--left i {
+	background-color: var(--lightpurple-color);
+	border: none;
+	border-radius: 1.5rem;
+	font-size: 0.7rem;
+	padding: 0.1rem;
+	position: absolute;
+	top: 3.5rem;
+	left: 4rem;
+}
+
+.seller__down--left img {
+	padding-right: 1rem;
+}
+
+.seller__down--right h4 {
+	color: var(--light-color);
+	font-size: 0.6rem;
+	font-weight: 400;
+}
+
+.seller__down--right p {
+	color: var(--secondary-color);
+	font-size: 0.6rem;
+	font-weight: 300;
+}
+
+/* *************************************End Seller section End******************************************  */
+
+@media only screen and (max-width: 973px) {
+	.seller__up,
+	.seller__down {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.seller__all {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
