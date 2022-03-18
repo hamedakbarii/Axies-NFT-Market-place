@@ -1,10 +1,15 @@
 /* ************************************* picks section ************************************************** */
 #picks {
 	margin-top: 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .picks__title {
 	display: flex;
+	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 }
