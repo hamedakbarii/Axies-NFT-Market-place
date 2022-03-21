@@ -12,11 +12,25 @@
 }
 
 .features__items--item {
-	padding: 0 1rem;
+	padding: 2rem 1rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	transition: all 0.3s ease;
+}
+
+.features__items--item:hover {
+	background-color: var(--secondary-color);
+	border-radius: 1.5rem;
+	border: none;
+	/* padding: 1.5rem; */
+	color: var(--light-color);
+	cursor: pointer;
+}
+
+.features__items--item:hover p {
+	color: var(--light-color);
 }
 
 .features__items--item .wallet_purple {
