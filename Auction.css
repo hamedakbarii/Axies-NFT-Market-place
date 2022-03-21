@@ -45,6 +45,7 @@
 	border-radius: 1.5rem;
 	padding: 1rem 1rem;
 	position: relative;
+	transition: all 0.3 ease;
 }
 
 .Auction__box--items__item h2 {

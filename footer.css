@@ -1,5 +1,3 @@
-/* ************************************ Footer Section *********************************************************  */
-
 #footer {
 	margin-top: 2rem;
 	background-color: var(--dark-color);
@@ -33,7 +31,7 @@
 
 .second__items p a {
 	color: var(--secondary-color);
-	font-size: 0.8rem;
+	font-size: 0.7rem;
 }
 
 .third__title h2 {
@@ -44,7 +42,7 @@
 
 .third__items p a {
 	color: var(--secondary-color);
-	font-size: 0.8rem;
+	font-size: 0.7rem;
 }
 
 .fourth__title h2 {
@@ -55,7 +53,7 @@
 
 .fourth__items p a {
 	color: var(--secondary-color);
-	font-size: 0.8rem;
+	font-size: 0.7rem;
 }
 
 .last__title h2 {
@@ -107,8 +105,6 @@
 	align-items: flex-start;
 	padding-right: 2rem;
 }
-
-/* ************************************ End Footer Section End *************************************************  */
 
 @media only screen and (max-width: 1162px) {
 	.footer__items {
