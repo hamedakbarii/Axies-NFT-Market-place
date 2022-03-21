@@ -70,7 +70,7 @@
 
 .last__items input {
 	background-color: var(--primary-color);
-	color: var(--seconadry-color);
+	color: var(--light-color);
 	border: none;
 	border-radius: 0.4rem;
 	padding: 0.7rem 1rem;

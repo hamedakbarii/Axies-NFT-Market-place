@@ -3,76 +3,76 @@
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 }
 
 :root {
-  --primary-color: #14141f;
-  --light-color: white;
-  --dark-color: black;
-  --secondary-color: gray;
-  --lightpurple-color: #4e3fee;
-  --green-color: green;
-  --red-color: red;
-  --likegray-color: #3e3636;
+	--primary-color: #14141f;
+	--light-color: snow;
+	--dark-color: black;
+	--secondary-color: gray;
+	--lightpurple-color: #4e3fee;
+	--green-color: green;
+	--red-color: red;
+	--likegray-color: #3e3636;
 }
 
 html {
-  font-size: 1.5rem;
-  font-family: "poppins", sans-serif;
+	font-size: 1.5rem;
+	font-family: "poppins", sans-serif;
 }
 
 body {
-  background-color: var(--primary-color);
+	background-color: var(--primary-color);
 }
 
 ul {
-  list-style: none;
+	list-style: none;
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .btn {
-  background-color: var(--primary-color);
-  color: white;
-  padding: 0.5rem 1.5rem;
-  border-radius: 1.5rem;
-  border: 2px solid var(--lightpurple-color);
-  font-family: inherit;
-  font-size: 0.5rem;
-  box-shadow: 0;
-  transition: all 0.3s ease;
-  -webkit-transition: all 0.3 ease;
+	background-color: var(--primary-color);
+	color: white;
+	padding: 0.5rem 1.5rem;
+	border-radius: 1.5rem;
+	border: 2px solid var(--lightpurple-color);
+	font-family: inherit;
+	font-size: 0.5rem;
+	box-shadow: 0;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3 ease;
 }
 
 .btn:hover {
-  cursor: pointer;
-  color: var(--dark-color);
-  background-color: var(--light-color);
+	cursor: pointer;
+	color: var(--dark-color);
+	background-color: var(--light-color);
 }
 
 .container {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 1rem;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 1rem;
 }
 
 button {
-  cursor: pointer;
-  font-family: inherit;
+	cursor: pointer;
+	font-family: inherit;
 }
 
 i {
-  color: var(--light-color);
-  cursor: pointer;
-  transition: all 0.3s ease;
+	color: var(--light-color);
+	cursor: pointer;
+	transition: all 0.3s ease;
 }
 
 i:hover {
-  transform: scale(1.1);
+	transform: scale(1.1);
 }
