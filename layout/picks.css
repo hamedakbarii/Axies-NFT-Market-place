@@ -23,6 +23,7 @@
 	color: var(--light-color);
 	font-size: 0.5rem;
 	border-bottom: 2px solid var(--lightpurple-color);
+	cursor: pointer;
 }
 
 .picks__buttons {
@@ -75,6 +76,15 @@
 	border-radius: 1.5rem;
 	padding: 1rem 1rem;
 	position: relative;
+	transition: all 0.3s ease;
+}
+
+.picks__items--item:hover {
+	transform: scale(0.9);
+}
+
+.picks__items--item img {
+	width: 10rem;
 }
 
 .picks__items--item h2 {

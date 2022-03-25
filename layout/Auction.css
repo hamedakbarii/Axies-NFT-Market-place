@@ -25,6 +25,7 @@
 	color: var(--light-color);
 	font-size: 0.5rem;
 	border-bottom: 2px solid var(--lightpurple-color);
+	cursor: pointer;
 }
 
 .Auction__box--items {
