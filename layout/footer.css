@@ -105,12 +105,3 @@
 	align-items: flex-start;
 	padding-right: 2rem;
 }
-
-@media only screen and (max-width: 1162px) {
-	.footer__items {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-}

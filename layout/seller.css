@@ -1,5 +1,3 @@
-/* ************************************* Seller section ******************************************  */
-
 #seller {
 	margin-top: 5rem;
 }
@@ -94,22 +92,4 @@
 	color: var(--secondary-color);
 	font-size: 0.6rem;
 	font-weight: 300;
-}
-
-/* *************************************End Seller section End******************************************  */
-
-@media only screen and (max-width: 973px) {
-	.seller__up,
-	.seller__down {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.seller__all {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
 }

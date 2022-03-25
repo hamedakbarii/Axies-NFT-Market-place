@@ -1,4 +1,3 @@
-/* *************************************Auction section******************************************************* */
 #Auction {
 	margin-top: 2rem;
 }
@@ -40,12 +39,18 @@
 	justify-content: center;
 	align-items: center;
 	background-color: var(--likegray-color);
-	margin: 1rem 0.5rem;
+	margin: 1rem 0.2rem;
 	border: none;
 	border-radius: 1.5rem;
 	padding: 1rem 1rem;
 	position: relative;
 	transition: all 0.3 ease;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.Auction__box--items__item:hover {
+	transform: scale(0.9);
 }
 
 .Auction__box--items__item h2 {
@@ -174,5 +179,3 @@
 	padding-right: 0.3rem;
 	color: var(--lightpurple-color);
 }
-
-/* *************************************End Auction section End*********************************************** */
