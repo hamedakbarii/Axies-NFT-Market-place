@@ -23,6 +23,12 @@
 .navbar__icons ul li i {
 	padding-left: 0.3rem;
 	font-size: 0.4rem;
+	transition: all 0.2s ease;
+}
+
+.navbar__icons ul li i:hover {
+	transform: rotate(180deg);
+	transform-origin: 0.5rem;
 }
 
 .navbar__double--icon i {
