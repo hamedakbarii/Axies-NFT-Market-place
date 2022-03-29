@@ -12,11 +12,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	position: relative;
-}
-
-.navbar__icons ul li:hover {
-	visibility
 }
 
 .navbar__icons ul li a {
@@ -46,4 +41,3 @@
 .wallett {
 	padding-right: 0.3rem;
 }
-
