@@ -20,13 +20,16 @@
 .navbar__icons ul li {
 	position: relative;
 	transition: all 0.3s ease;
-	position: relative;
-	transition: all 0.3s ease;
+}
+
+.navbar__icons ul li a {
 	color: var(--light-color);
+	padding: 0 0.35rem;
+	font-size: 0.8rem;
 }
 
 .navbar__icons ul li:hover {
-	border-bottom: 1px solid var(--lightpurple-color);
+	border-bottom: 2px solid var(--lightpurple-color);
 }
 
 .navbar__icons ul li:hover .navbar__icons ul li a {
@@ -63,10 +66,14 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	transition: all 0.3s ease;
 	position: absolute;
+	width: 100%;
 }
 
-.navbar__icons ul li:hover .megamenu {
+.navbar__icons li:hover .megamenu {
 	visibility: visible;
+	background-color: var(--lightpurple-color);
+	padding: 1rem 0.5rem;
+	border-radius: 1.5rem;
+	width: 7rem;
 }
