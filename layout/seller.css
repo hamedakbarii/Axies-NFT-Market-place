@@ -67,6 +67,14 @@
 	position: relative;
 }
 
+.seller__up--left:hover {
+	cursor: pointer;
+}
+
+.seller__down--left {
+	cursor: pointer;
+}
+
 .seller__down--left i {
 	background-color: var(--lightpurple-color);
 	border: none;

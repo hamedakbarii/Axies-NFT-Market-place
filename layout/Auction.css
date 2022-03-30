@@ -50,10 +50,6 @@
 	transition: all 0.3s ease;
 }
 
-.Auction__box--items__item:hover {
-	transform: scale(0.9);
-}
-
 .Auction__box--items__item h2 {
 	color: var(--light-color);
 	font-size: 0.7rem;
@@ -105,13 +101,22 @@
 }
 
 .footer__right {
+	padding-top: 1rem;
+}
+
+.footer__right button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: var(--secondary-color);
 	border-radius: 0.5rem;
 	padding: 0.1rem 0.3rem;
 	font-size: 0.5rem;
+	background-color: var(--secondary-color);
+	border: none;
+}
+
+.footer__right i {
+	padding-right: 0.3rem;
 }
 
 .footer__left {
@@ -174,6 +179,11 @@
 	position: absolute;
 	top: 6rem;
 	left: 3.5rem;
+	visibility: hidden;
+}
+
+.Auction__box--items__item:hover .item__product {
+	visibility: visible;
 }
 
 .item__product i {

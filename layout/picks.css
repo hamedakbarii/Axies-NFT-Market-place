@@ -79,10 +79,6 @@
 	transition: all 0.3s ease;
 }
 
-.picks__items--item:hover {
-	transform: scale(0.9);
-}
-
 .picks__items--item img {
 	width: 10rem;
 }
@@ -95,8 +91,13 @@
 
 .picks__items--item .item__footer .footer__right {
 	background: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	color: var(--light-color);
-	padding-top: 0.5rem;
+	padding-top: 1rem;
+	font-size: 0.5rem;
+	width: 50%;
 }
 
 .picks__items--item .item__footer .footer__right i {
@@ -108,4 +109,12 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.item__footer .footer__left {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
 }

@@ -13,13 +13,11 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	transition: all 0.3s ease;
 	position: relative;
 }
 
 .navbar__icons ul li {
 	position: relative;
-	transition: all 0.3s ease;
 }
 
 .navbar__icons ul li a {
@@ -75,5 +73,5 @@
 	background-color: var(--lightpurple-color);
 	padding: 1rem 0.5rem;
 	border-radius: 1.5rem;
-	width: 7rem;
+	width: 10rem;
 }
