@@ -6,15 +6,30 @@
 	align-items: center;
 	border-bottom: 2px solid var(--secondary-color);
 	height: 10vh;
+	position: relative;
 }
 
 .navbar__icons ul {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	transition: all 0.3s ease;
+	position: relative;
 }
 
-.navbar__icons ul li a {
+.navbar__icons ul li {
+	position: relative;
+	transition: all 0.3s ease;
+	position: relative;
+	transition: all 0.3s ease;
+	color: var(--light-color);
+}
+
+.navbar__icons ul li:hover {
+	border-bottom: 1px solid var(--lightpurple-color);
+}
+
+.navbar__icons ul li:hover .navbar__icons ul li a {
 	padding: 0 0.5rem;
 	color: var(--light-color);
 	font-size: 0.8rem;
@@ -40,4 +55,18 @@
 
 .wallett {
 	padding-right: 0.3rem;
+}
+
+.navbar__icons .megamenu {
+	visibility: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.3s ease;
+	position: absolute;
+}
+
+.navbar__icons ul li:hover .megamenu {
+	visibility: visible;
 }
