@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=poppins:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+html {
+	font-size: 1.5rem;
+	font-family: "poppins", sans-serif;
+}
+
+body {
+	background-color: #14141f;
+}
+
+.login {
+	font-family: inherit;
+	margin-top: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 1.5rem;
+	background-color: snow;
+	position: relative;
+}
+
+.login__inps {
+	padding: 1rem 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.login__inps--email {
+	padding: 0.8rem 0;
+}
+
+.login__inps--email h3 {
+	font-size: 0.7rem;
+	padding-left: 0.3rem;
+	padding-bottom: 0.3rem;
+}
+
+.login__inps--email input {
+	border: 1px solid gray;
+	border-radius: 0.5rem;
+	padding: 0.5rem 2.5rem;
+}
+
+.login__inps--password h3 {
+	font-size: 0.7rem;
+	padding-left: 0.3rem;
+	padding-bottom: 0.3rem;
+}
+
+.login__inps--password input {
+	border: 1px solid gray;
+	border-radius: 0.5rem;
+	padding: 0.5rem 2.5rem;
+}
+
+.login__submit {
+	padding-bottom: 1rem;
+}
+
+.login__submit button {
+	background-color: blueviolet;
+	border: none;
+	border-radius: 0.5rem;
+	padding: 0.3rem 5.1rem;
+	color: snow;
+	cursor: pointer;
+	font-weight: 400;
+	font-size: 0.7rem;
+}
+
+.login__new p {
+	font-size: 0.7rem;
+}
+
+.login__new span {
+	color: blueviolet;
+	cursor: pointer;
+}
+
+.login__new {
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #14141f;
+}
+
+.login__or P {
+	padding: 0.1rem;
+	background-color: snow;
+	position: absolute;
+	top: 16rem;
+	left: 28rem;
+	border: none;
+	border-radius: 1rem;
+}
+
+.login__social {
+	padding-top: 1rem;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.login__social i:hover {
+	color: aqua;
+}

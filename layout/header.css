@@ -11,6 +11,10 @@
 	background-color: #14141f;
 }
 
+.navbar .btn {
+	padding: 0.3rem 1rem;
+}
+
 .navbar__icons ul {
 	display: flex;
 	justify-content: center;
