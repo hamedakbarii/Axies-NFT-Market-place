@@ -1,12 +1,14 @@
 #header nav {
 	width: 100%;
-	margin-top: 1rem;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	border-bottom: 2px solid var(--secondary-color);
 	height: 10vh;
-	position: relative;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	background-color: #14141f;
 }
 
 .navbar__icons ul {
@@ -28,6 +30,7 @@
 
 .navbar__icons ul li:hover {
 	border-bottom: 2px solid var(--lightpurple-color);
+	transition: all 0.3s ease;
 }
 
 .navbar__icons ul li:hover .navbar__icons ul li a {
@@ -40,6 +43,11 @@
 	padding-left: 0.3rem;
 	font-size: 0.4rem;
 	transition: all 0.2s ease;
+}
+
+.navbar__icons ul li:hover i {
+	transform: rotate(180deg);
+	transform-origin: right;
 }
 
 .navbar__double--icon i {
@@ -65,6 +73,8 @@
 	justify-content: center;
 	align-items: center;
 	position: absolute;
+	top: 1.9rem;
+	left: -2rem;
 	width: 100%;
 }
 
@@ -74,4 +84,65 @@
 	padding: 1rem 0.5rem;
 	border-radius: 1.5rem;
 	width: 10rem;
+	transition: 0.6s;
+}
+
+.header_search_button .searchIcon {
+	margin-left: 4.5rem;
+	padding: 0.2rem 0.3rem;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+.search_input {
+	display: none;
+	width: 10rem;
+}
+
+.search_input--show {
+	display: block;
+	position: absolute;
+	top: 2.8rem;
+	right: 10rem;
+	padding: 0.7rem 0.5rem;
+	outline: none;
+	border: none;
+	border-radius: 0.8rem;
+	padding: 0.3rem 0.3rem;
+	border-radius: 0.3rem;
+	transition: all 0.3s ease-in-out;
+}
+
+.social_sticky--total {
+	position: fixed;
+	padding: 0.3rem 0.3rem;
+	left: 0.2rem;
+	top: 8rem;
+	border-radius: 1rem;
+	z-index: 10;
+	box-shadow: 0.2rem 0.2rem 0.2rem var(--dark-color);
+	transform-origin: left;
+	border-right: 2px solid var(--lightpurple-color);
+	transition: all 0.2s ease-in-out;
+}
+
+.social_sticky--total .social--total {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	gap: 0.6rem;
+}
+
+.social_sticky--total .social--total i {
+	font-size: 0.8rem;
+	color: var(--light-color);
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+}
+
+.social_sticky--total .social--total i:hover {
+	color: rgba(255, 250, 250, 0.589);
+	transform: scale(1.1);
+	transform-origin: top;
 }
