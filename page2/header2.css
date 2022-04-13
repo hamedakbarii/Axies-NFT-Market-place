@@ -1,4 +1,25 @@
 /* new slide */
+
+@import url("https://fonts.googleapis.com/css2?family=poppins:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+html {
+	font-size: 1.5rem;
+	font-family: "poppins", sans-serif;
+}
+
+body {
+	background-color: #14141f;
+}
+
 #ItemDetails {
 	min-height: 30vh;
 	margin-top: 3rem;

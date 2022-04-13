@@ -35,6 +35,7 @@ ul {
 
 a {
 	text-decoration: none;
+	color: var(--light-color);
 }
 
 .btn {
@@ -75,4 +76,34 @@ i {
 
 i:hover {
 	transform: scale(1.1);
+}
+
+@media (max-width: 567px) {
+	.container {
+		width: 540px;
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		width: 720px;
+	}
+}
+
+@media (max-width: 992px) {
+	.container {
+		width: 960px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.container {
+		width: 1140px;
+	}
+}
+
+@media (max-width: 1400px) {
+	.container {
+		width: 1320px;
+	}
 }
