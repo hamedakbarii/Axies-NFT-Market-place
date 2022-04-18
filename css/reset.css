@@ -23,10 +23,12 @@
 html {
 	font-size: 1.5rem;
 	font-family: "poppins", sans-serif;
+	scroll-behavior: smooth;
 }
 
 body {
 	background-color: var(--primary-color);
+	position: relative;
 }
 
 ul {

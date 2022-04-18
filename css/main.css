@@ -8,3 +8,5 @@
 @import url(./reset.css);
 @import url(../layout/login.css);
 @import url(../page2/header2.css);
+@import url(../layout/sticky.css);
+@import url(../layout/scroll.css);
