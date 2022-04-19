@@ -26,6 +26,11 @@
 	font-size: 0.5rem;
 	border-bottom: 2px solid var(--lightpurple-color);
 	cursor: pointer;
+	transition: padding-bottom 0.3s ease;
+}
+
+.Auction__box--titles h3:hover {
+	padding-bottom: 0.3rem;
 }
 
 .Auction__box--items {

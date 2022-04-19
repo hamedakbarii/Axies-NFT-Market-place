@@ -23,6 +23,11 @@
 	align-items: center;
 	padding: 0.5rem 1rem;
 	position: relative;
+	transition: all 0.3s ease;
+}
+
+.seller__up--items:hover {
+	transform: translateX(0.5rem);
 }
 
 .seller__up--left i {
@@ -65,6 +70,11 @@
 	align-items: center;
 	padding: 0.5rem 1rem;
 	position: relative;
+	transition: all 0.3s ease;
+}
+
+.seller__down--items:hover {
+	transform: translateX(0.5rem);
 }
 
 .seller__up--left:hover {
