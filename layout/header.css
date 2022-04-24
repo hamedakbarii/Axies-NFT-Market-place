@@ -36,7 +36,7 @@
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-	background-color: black;
+	background-color: var(--dark-color);
 	visibility: 0;
 	transition: all 0.5s ease-in-out;
 	padding: 1rem;
