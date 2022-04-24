@@ -20,21 +20,16 @@ body {
 	background-color: #14141f;
 }
 
+/* ----------------------item details section */
+
 #ItemDetails {
 	min-height: 30vh;
-	margin-top: 3rem;
-	background: url(../assets/new/bg.jpg);
-	background-position: center;
-	background-repeat: repeat;
-	background-size: cover;
-	text-align: center;
-}
-
-.new {
-	background: url(../assets/new/bg.jpg);
-	background-position: center;
+	padding-top: 3rem;
+	background: url(../assets/item-details/bg.jpg);
+	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
+	text-align: center;
 }
 
 .new__title h1 {
@@ -271,7 +266,7 @@ body {
 .itemdetails__table--title h4:hover {
 	cursor: pointer;
 	color: var(--lightpurple-color);
-	border-bottom: 1px solid var(--lightpurple-color);
+	/* border-bottom: 1px solid var(--lightpurple-color); */
 }
 
 .itemdetails__table--parts {
