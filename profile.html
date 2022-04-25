@@ -16,6 +16,9 @@
         integrity="sha512-xX2rYBFJSj86W54Fyv1de80DWBq7zYLn2z0I9bIhQG+rxIF6XVJUpdGnsNHWRa6AvP89vtFupEPDP8eZAtu9qA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css" />
+
+
     <title>Axies NFT Market Place</title>
 
 </head>
@@ -127,8 +130,6 @@
 
         <div class="container">
 
-
-
             <div class="main__profile">
 
                 <div class="left__profile">
@@ -146,12 +147,18 @@
                 </div>
 
                 <div class="right__profile">
+
                     <div class="main__profile--header">
+
                         <div class="profile__header--upload">
-                            <input type="file" name="file" id="file">
+
+                            <form action="/file-upload" class="dropzone" id="my-awesome-dropzone"></form>
+
                         </div>
+
                         <img src="./assets/profile/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="cover">
                         <img src="./assets/profile/pawel-czerwinski-aMPfitH2tT0-unsplash.jpg" alt="cover">
+
                     </div>
 
                     <div class="main__profile--forms">
@@ -204,7 +211,6 @@
                 </div>
 
             </div>
-
 
         </div>
 
@@ -302,6 +308,11 @@
         <i class="fa-solid fa-angle-up"></i>
     </div>
 
+
+
+
+    <script>Dropzone.discover();</script>
+    <script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
     <script src="./script/script.js"></script>
 </body>
 
