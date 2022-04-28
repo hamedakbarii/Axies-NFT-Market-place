@@ -47,9 +47,9 @@ mybutton.addEventListener('click' , topFunction)
 
 
 //--------------------------------Dropzone
-const myDropzone = document.querySelector('.dz-preview')
+const myDropzone = document.querySelector('.dz-success-mark')
 
 
  myDropzone.on("complete", function(file) {
     myDropzone.removeFile(file);
-   });
+ });
