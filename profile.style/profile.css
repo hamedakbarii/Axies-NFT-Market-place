@@ -35,6 +35,7 @@ body {
 	margin-top: 2rem;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
+	gap: 2rem;
 }
 
 .main__profile--forms {
@@ -214,10 +215,7 @@ body {
 }
 
 /* -----------------------profile photo */
-.left__profile {
-	width: 15rem;
-	padding-left: 2rem;
-}
+
 .main__profile--photo {
 	display: flex;
 	flex-direction: column;
