@@ -80,6 +80,22 @@ i:hover {
 	transform: scale(1.1);
 }
 
+/* -------------------light mode--------------- */
+
+.light {
+	background-color: snow;
+}
+
+.light .social_sticky--total {
+	background-color: #8db9ec;
+}
+
+.light .social_sticky--total .social--total i {
+	color: var(--primary-color);
+}
+
+/* ------------------------ */
+
 @media (max-width: 567px) {
 	.container {
 		width: 540px;

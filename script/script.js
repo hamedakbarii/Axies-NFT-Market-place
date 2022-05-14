@@ -46,10 +46,22 @@ mybutton.addEventListener('click' , topFunction)
 
 
 
-//--------------------------------Dropzone
-const myDropzone = document.querySelector('.dz-success-mark')
+// //--------------------------------Dropzone
+// const myDropzone = document.querySelector('.dz-success-mark')
 
 
- myDropzone.on("complete", function(file) {
-    myDropzone.removeFile(file);
- });
+//  myDropzone.on("complete", function(file) {
+//     myDropzone.removeFile(file);
+//  });
+
+
+
+//  dark and light button
+
+let switchElement = document.querySelector('.sunn')
+
+switchElement.addEventListener('click', () => {
+
+  document.body.classList.toggle('light')
+
+})
