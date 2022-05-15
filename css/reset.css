@@ -80,7 +80,7 @@ i:hover {
 	transform: scale(1.1);
 }
 
-/* -------------------light mode--------------- */
+/* -------------------dark /light mode--------------- */
 
 .light {
 	background-color: snow;
@@ -94,7 +94,7 @@ i:hover {
 	color: var(--primary-color);
 }
 
-/* ------------------------ */
+/* ------------------------ container media query --------------*/
 
 @media (max-width: 567px) {
 	.container {

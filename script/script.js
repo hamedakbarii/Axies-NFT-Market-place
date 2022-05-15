@@ -64,4 +64,19 @@ switchElement.addEventListener('click', () => {
 
   document.body.classList.toggle('light')
 
+  if (document.body.className.includes('light')) {
+    localStorage.setItem('theme' , 'light')
+  } else {
+    localStorage.setItem('theme' , 'dark')
+  }
 })
+
+window.onload = function () {
+  let localStorageTheme = localStorage.getItem('theme')
+
+  if (localStorageTheme === 'dark') {
+    document.body.classList.add('dark')
+  } else {
+    
+  }
+}
