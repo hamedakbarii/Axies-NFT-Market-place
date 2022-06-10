@@ -11,7 +11,7 @@
 
 :root {
 	--primary-color: #14141f;
-	--light-color: snow;
+	--light-color: #f8fafa;
 	--dark-color: black;
 	--secondary-color: gray;
 	--lightpurple-color: #4e3fee;
@@ -83,15 +83,37 @@ i:hover {
 /* -------------------dark /light mode--------------- */
 
 .light {
-	background-color: snow;
-}
+	background-color: var(--light-color);
 
-.light .social_sticky--total {
-	background-color: #8db9ec;
-}
+	button:hover i {
+		color: var(--dark-color);
+	}
 
-.light .social_sticky--total .social--total i {
-	color: var(--primary-color);
+	#header nav {
+		background-color: var(--light-color);
+
+		img {
+			background-color: var(--primary-color);
+			padding: 0.3rem;
+			border-radius: 1.5rem;
+			opacity: 0.9;
+		}
+
+		.header_ul .first_ul > li > a {
+			color: var(--lightpurple-color);
+			padding: 0 0.5rem;
+			cursor: pointer;
+			font-size: 0.8rem;
+		}
+	}
+	.social_sticky--total {
+		background-color: var(--primary-color);
+	}
+	#hero {
+		.hero__left h2 {
+			color: var(--dark-color);
+		}
+	}
 }
 
 /* ------------------------ container media query --------------*/

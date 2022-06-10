@@ -13,6 +13,7 @@
 
 .navbar__title img {
 	transition: all 0.3s ease;
+	cursor: pointer;
 }
 
 .navbar__title img:hover {
@@ -115,9 +116,8 @@
 	opacity: 0.9;
 }
 
-.moonn {
-	color: var(--lightpurple-color);
-	visibility: hidden;
+.navbar__button button:hover i {
+	color: var(--dark-color);
 }
 
 .wallett {
@@ -178,8 +178,4 @@
 	right: -5.7rem;
 	display: none;
 	cursor: pointer;
-}
-
-.theme--dark {
-	transition: all 0s 50000s;
 }
