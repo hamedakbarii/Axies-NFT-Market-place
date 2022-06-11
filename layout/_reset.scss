@@ -114,6 +114,29 @@ i:hover {
 			color: var(--dark-color);
 		}
 	}
+	.Auction__box {
+		background-color: var(--light-color);
+		width: 100%;
+		height: 30rem;
+
+		.Auction__box--titles h2,
+		h3 {
+			color: var(--dark-color);
+		}
+	}
+	#picks {
+		.picks__title h2,
+		p {
+			color: var(--dark-color);
+			// padding: 1rem 1rem;
+		}
+
+		.picks__items--item p {
+			padding-top: 0.5rem;
+			color: var(--light-color);
+			font-size: 0.7rem;
+		}
+	}
 }
 
 /* ------------------------ container media query --------------*/

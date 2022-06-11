@@ -1312,6 +1312,28 @@ i:hover {
   color: var(--dark-color);
 }
 
+.light .Auction__box {
+  background-color: var(--light-color);
+  width: 100%;
+  height: 30rem;
+}
+
+.light .Auction__box .Auction__box--titles h2,
+.light .Auction__box h3 {
+  color: var(--dark-color);
+}
+
+.light #picks .picks__title h2,
+.light #picks p {
+  color: var(--dark-color);
+}
+
+.light #picks .picks__items--item p {
+  padding-top: 0.5rem;
+  color: var(--light-color);
+  font-size: 0.7rem;
+}
+
 /* ------------------------ container media query --------------*/
 @media (max-width: 567px) {
   .container {
